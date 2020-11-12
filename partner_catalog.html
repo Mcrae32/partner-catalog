@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Дистрибуция замороженных продуктов</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<meta name="keywords" content="мороженое, натуральное мороженое, вкусное мороженое, айсберри, мороженое айсберри" />
+	<meta name="description" content="Сайт компании Айсберри." />
+	<meta name="apple-mobile-web-app-title" content="О компании Айсберри — одном из крупнейших производителей мороженого в России">
+	<meta property="og:site_name" content="О компании Айсберри — одном из крупнейших производителей мороженого в России">
+	<meta name="Author" content="iceberry.ru" />
+	<meta property="og:title" content="Айсберри | О компании Айсберри — одном из крупнейших производителей мороженого в России" />
+	<meta property="og:site_name" content="Айсберри | Крупнейший российский производитель натурального мороженого" />
+	<meta property="og:description" content="Айсберри | Крупнейший российский производитель натурального мороженого" />
+	<link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
+	<!--Slick slider-->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<!--Styles for sotrudnichestvo page-->
+	<link rel="stylesheet" href="css/about.css">
+	<!-- Подключаем Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!--Mobile menu-->
+	<link rel="stylesheet" href="slideout/test.css">
+	<link rel="stylesheet" href="slideout/index.css">
+	<!--base-->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/partner-catalog.css">
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+</head>
+
+<body>
+	<!--loader-->
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+	<!--mobile menu slideout-->
+	<nav id="menu" class="menu">
+		<section class="menu-section">
+			<div class="header-menu">
+				<div class="logo-header-menu">
+					<a href="index.html"><img class="img-responsive" src="images/logo-header2.png" alt="iceberry"></a>
+				</div>
+				<div id="close" class="close-menu">
+					<a class="js-slideout-toggle-menu"><img class="img-responsive" src="images/close-icon.jpg" alt="iceberry"></a>
+				</div>
+				<div class="search-menu">
+					<a id="open"><img class="img-responsive" src="images/search-icon.jpg" alt="iceberry"></a>
+					<form class="formSearch" action="/search/" data-action-ajax="/search/ajax/" method="get">
+						<input class="searchInput" type="text" name="text" value="" placeholder="Поиск">
+					</form>
+				</div>
+			</div>
+			<ul class="menu-section-list b2b">
+				<li class=""><a class="home-icon" href="index.html">Главная</a></li>
+				<li class=""><a class="company-icon" href="/">О компании</a></li>
+				<li class=""><a class="catalog-icon" href="assortiment.html">Каталог</a></li>
+				<li class="active"><a class="busines-icon" href="/">Партнерам</a></li>
+				<li class=""><a class="potreb-icon" href="/">Раздел для потребителей</a></li>
+				<li class=""><a class="cont-icon" href="/">Контакты</a></li>
+			</ul>
+		</section>
+	</nav>
+	<!--mobile menu slideout end-->
+	<main id="panel" class="panel">
+		<header>
+			<div class="navbar navbar-main if-s">
+				<div class="header-top">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-6">
+							<div class="top-info">
+								<a href="tel:+7 495 63 999 72"><i class="fa fa-phone"></i>+7 495 63 999 72</a>
+							</div>
+							<div class="top-info">
+								<a href="mailto:.."><i class="fa fa-envelope"></i>info@iceberry.ru</a>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6">
+							<div class="header-social">
+								<div class="social-network">
+									<a href="https://ok.ru/group/53816670421144" target="_blank">
+										<i class="fa fa-odnoklassniki"></i>
+									</a>
+								</div>
+
+								<div class="social-network">
+									<a href="https://vk.com/club48220269" target="_blank">
+										<i class="fa fa-vk"></i>
+									</a>
+								</div>
+
+								<div class="social-network">
+									<a href="https://www.facebook.com/TDIceBerry" target="_blank">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</div>
+
+								<div class="social-network">
+									<a href="https://www.instagram.com/iceberry_icecream/" target="_blank">
+										<i class="fa fa-instagram"></i>
+									</a>
+								</div>
+
+								<div class="clearfix"></div>
+							</div>
+							<div class="lang">
+								<a class="active" href="/?lang=ru">ru</a><span style="color: #a1a1a1;">|</span><a
+									href="/?lang=en">en</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--mobile header-bottom-->
+				<div class="header-bottom hidden-md hidden-lg">
+					<!--panel mobile menu-->
+					<div style="width: 30%; float:left;">
+						<a class="button js-slideout-toggle">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+						<!--<button class="btn-hamburger js-slideout-toggle"></button>-->
+					</div>
+					<div style="width: 40%; float:left;">
+						<div class="logo-wrap">
+							<a href="/" class="logo-btn navbar-nav">
+								<img src="images/logo-header.png" class="img-responsive" alt="Компания Айсберри">
+								<img src="images/logo-header2.png" class="img-responsive" alt="Компания Айсберри">
+							</a>
+						</div>
+					</div>
+					<div style="width: 30%; float:left;">
+						<div class="lang">
+							<a href="en.php">EN</a>
+						</div>
+					</div>
+					<!--panel mobile menu end-->
+				</div>
+				<!--mobile header-bottom end-->
+
+				<!--desctop header-bottom-->
+				<div class="header-bottom hidden-xs hidden-sm">
+					<div class="row">
+						<div class="logo-wrap col-xs-7 col-sm-3 col-md-2 col-lg-2">
+							<a href="index.html" class="logo-btn navbar-nav">
+								<img src="images/logo-header.png" class="img-responsive" alt="Компания Айсберри">
+								<img src="images/logo-header2.png" class="img-responsive" alt="Компания Айсберри">
+							</a>
+						</div>
+						<div class="hidden-xs hidden-sm col-md-10 col-lg-10">
+							<nav class="collapse navbar-collapse" id="navbar" data-hover="dropdown"
+								data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="index.html">Главная</a></li>
+									<li class="dropdown">
+										<a class="" href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+											aria-expanded="false">О компании<i class="fa fa-angle-down"></i></a>
+										<ul class="dropdown-menu">
+											<li class="dropdown">
+												<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+													aria-expanded="false">
+													Новости
+												</a>
+											</li>
+											<li class="dropdown">
+												<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+													aria-expanded="false">
+													О компании
+												</a>
+											</li>
+											<li class="dropdown">
+												<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+													aria-expanded="false">
+													Производство
+												</a>
+											</li>
+											<li class="dropdown">
+												<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+													aria-expanded="false">
+													Технология производства
+												</a>
+											</li>
+											<li class="dropdown">
+												<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+													aria-expanded="false">
+													Наша миссия
+												</a>
+											</li>
+											<li class="dropdown">
+												<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+													aria-expanded="false">
+													Наши видеоролики
+												</a>
+											</li>
+											<li class="dropdown">
+												<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+													aria-expanded="false">
+													Отзывы о мороженом
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li><a href="assortiment.html">Каталог</a></li>
+									<li class="dropdown">
+										<a class="active" href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+											aria-expanded="false">Партнерам<i class="fa fa-angle-down"></i></a>
+										<ul class="dropdown-menu">
+											<li class="dropdown">
+												<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+													aria-expanded="false">
+													Оптовым покупателям
+												</a>
+											</li>
+											<li class="dropdown">
+												<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+													aria-expanded="false">
+													Магазинам и торговым точкам
+												</a>
+											</li>
+											<li class="dropdown">
+												<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+													aria-expanded="false">
+													HoReCa
+												</a>
+											</li>
+											<li class="dropdown">
+												<a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+													aria-expanded="false">
+													Дистрибуция замор-х продуктов
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li><a href="/">Раздел для потребителей</a></li>
+									<li><a href="/">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="header-menu-field"></div>
+				</div>
+				<!--desctop header-bottom end-->
+			</div>
+		</header>
+		<!--Шапка с breadcrumbs-->
+		<div id="toppage" class="heading-wrapper page" data-spy="scroll" class="page-heading-1 parallax" style="background-image: url(images/bg-top-partner-catalog.jpg);">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>Ди<wbr>стри<wbr>бу<wbr>ция за<wbr>мо<wbr>ро<wbr>жен<wbr>ных продуктов</h1>
+						<div class="breadcrumb hidden-xs hidden-sm">
+							<a href="index.html">Главная</a>
+							<span class="v-line">&nbsp;|&nbsp;</span>
+							<a href="/">Сотрудничество</a>
+							<span class="v-line">&nbsp;|&nbsp;</span>Дистрибуция замороженных продуктов
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--content-->
+		<main>
+			<!--breadcrumbs mobile-->
+			<div class="container-fluid hidden-md hidden-lg">
+				<div class="row">
+					<div class="breadcrumbs-mobile">
+						<a href="index.html">Главная</a><span class="v-line">&nbsp;>&nbsp;</span><a href="/">Сотрудничество</a><span class="v-line">&nbsp;>&nbsp;</span>Ди<wbr>стри<wbr>бу<wbr>ция за<wbr>мо<wbr>ро<wbr>жен<wbr>ных про<wbr>ду<wbr>ктов
+					</div>
+				</div>
+			</div>
+			<!--filter catalog-->
+			<section class="filter-catalog">
+				<div class="container-fluid hidden-xs hidden-sm">
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+							<div class="row filter-catalog-sections part-wrap">
+								<div class="col-md-10 col-md-offset-1">
+									<div class="row">
+										<div class="col-md-3 col-lg-2">
+											<a href="/" data-toggle="modal" data-target="#myModal1">
+												<div class="section-filter" style="background-image: url('images/Partners/bg-section-filter-brands.jpg');">
+													<h4>Бренды</h4>
+												</div>
+											</a>
+											<div class="modal fade" id="myModal1" aria-hidden="true" style="display: none;">
+												<div class="modal-dialog">
+													<div class="filter-content">
+														<div class="hidden-xs hidden-sm">															
+															<div class="col-md-12">
+																<div class="modal-header">
+																	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+																	<h5>&nbsp;&nbsp;&nbsp;Бренды</h5>
+																</div>
+																<div class="row">
+																	<div class="col-md-12">
+																		<a class="active" href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/4sezona.png" class="img-responsive" alt="4 сезона">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/aviko.png" class="img-responsive" alt="Авико">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/cezar.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/cheremushki.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/drOtker.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/goryachaysSchtuchka.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/hozyainAltaya.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/kemp.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/kotletar.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/kurinoeCarstvo.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/lina.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/lozkarev.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/mirital.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/morozko.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/mozayskiyMyasnojDvor.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/murmanfish.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/myacnushki.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/norton.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/ostankino.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/prokotorg.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/shelf.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/snejana.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/starodvorskiePelmeni.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/turakovskieProdukty.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt logo">
+																				<img src="images/logos/vici.png" class="img-responsive" alt="">
+																			</div>
+																		</a>
+																	</div>
+																</div>
+															</div>															
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3 col-lg-2">
+											<a href="/" data-toggle="modal" data-target="#myModal2">
+												<div class="section-filter s2" style="background-image: url('images/Partners/bg-section-filter-blin.jpg');">
+													<h4>Блины</h4>
+												</div>
+											</a>
+											<div class="modal fade" id="myModal2" aria-hidden="true" style="display: none;">
+												<div class="modal-dialog">
+													<div class="filter-content">
+														<div class="hidden-xs hidden-sm">															
+															<div class="col-md-12">
+																<div class="modal-header">
+																	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+																	<h5>&nbsp;&nbsp;&nbsp;Блины</h5>
+																</div>
+																<div class="row">
+																	<div class="col-md-12">
+																		<a class="active" href="/">
+																			<div class="punkt autoheight">
+																				<div class="row">
+																					<div class="col-xs-7 col-sm-7 col-md-12">
+																						<p>Блины</p>
+																					</div>
+																				</div>
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt autoheight">
+																				<div class="row">
+																					<div class="col-xs-7 col-sm-7 col-md-12">
+																						<p>Блины весовые</p>
+																					</div>
+																				</div>
+																			</div>
+																		</a>
+																	</div>
+																</div>
+															</div>															
+														</div>
+													</div>
+												</div>
+											</div>
+											<a href="/">
+												<div class="section-filter s2" style="background-image: url('images/Partners/bg-section-filter-vyp.jpg');">
+													<h4>Выпечка</h4>
+												</div>
+											</a>											
+										</div>
+										<div class="col-md-3 col-lg-2">
+											<a href="/">
+												<div class="section-filter s2" style="background-image: url('images/Partners/bg-section-filter-testo.jpg');">
+													<h4>Тесто</h4>
+												</div>
+											</a>
+											<a href="/">
+												<div class="section-filter s2" style="background-image: url('images/Partners/bg-section-filter-piz.jpg');">
+													<h4>Пицца</h4>
+												</div>
+											</a>											
+										</div>
+										<div class="col-md-3 col-lg-2">
+											<a href="/">
+												<div class="section-filter s2" style="background-image: url('images/Partners/bg-section-filter-cheb.jpg');">
+													<h4>Чебуреки Шаурма Беляши</h4>
+												</div>
+											</a>
+											<a href="/">
+												<div class="section-filter s2" style="background-image: url('images/Partners/bg-section-filter-1bl.jpg');">
+													<h4>Первые блюда</h4>
+												</div>
+											</a>											
+										</div>
+										<div class="col-md-3 col-lg-2">
+											<a href="/">
+												<div class="section-filter" style="background-image: url('images/Partners/bg-section-filter-gotbl.jpg');">
+													<h4>Готовые блюда</h4>
+												</div>
+											</a>
+										</div>
+										<div class="col-md-3 col-lg-2">
+											<a href="/">
+												<div class="section-filter" style="background-image: url('images/Partners/bg-section-filter-2bl.jpg');">
+													<h4>Вторые блюда</h4>
+												</div>
+											</a>
+										</div>			
+										<div class="col-md-3 col-lg-2">
+											<a href="/" data-toggle="modal" data-target="#myModal4">
+												<div class="section-filter" style="background-image: url('images/Partners/bg-section-filter-pp.jpg');">
+													<h4>По<wbr>лу<wbr>фа<wbr>бри<wbr>ка<wbr>ты</h4>
+												</div>
+											</a>
+											<div class="modal fade" id="myModal4" aria-hidden="true" style="display: none;">
+												<div class="modal-dialog">
+													<div class="filter-content">
+														<div class="hidden-xs hidden-sm">															
+															<div class="col-md-12">
+																<div class="modal-header">
+																	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+																	<h5>&nbsp;&nbsp;&nbsp;По<wbr>лу<wbr>фа<wbr>бри<wbr>ка<wbr>ты</h5>
+																</div>
+																<div class="row">
+																	<div class="col-md-12">
+																		<a class="active" href="/">
+																			<div class="punkt autoheight">
+																				<div class="row">
+																					<div class="col-xs-7 col-sm-7 col-md-12">
+																						<p>Мясные</p>
+																					</div>
+																				</div>
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt autoheight">
+																				<div class="row">
+																					<div class="col-xs-7 col-sm-7 col-md-12">
+																						<p>Мясные весовые</p>
+																					</div>
+																				</div>
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt autoheight">
+																				<div class="row">
+																					<div class="col-xs-7 col-sm-7 col-md-12">
+																						<p>В панировке</p>
+																					</div>
+																				</div>
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt autoheight">
+																				<div class="row">
+																					<div class="col-xs-7 col-sm-7 col-md-12">
+																						<p>Рыбные</p>
+																					</div>
+																				</div>
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt autoheight">
+																				<div class="row">
+																					<div class="col-xs-7 col-sm-7 col-md-12">
+																						<p>Рыбные весовые</p>
+																					</div>
+																				</div>
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt autoheight">
+																				<div class="row">
+																					<div class="col-xs-7 col-sm-7 col-md-12">
+																						<p>Морепродукты</p>
+																					</div>
+																				</div>
+																			</div>
+																		</a>
+																	</div>
+																</div>
+															</div>															
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-3 col-lg-2">
+											<a href="/" data-toggle="modal" data-target="#myModal5">
+												<div class="section-filter s2" style="background-image: url('images/Partners/bg-section-filter-pelmen.jpg');">
+													<h4>Пельмени</h4>
+												</div>
+											</a>
+											<div class="modal fade" id="myModal5" aria-hidden="true" style="display: none;">
+												<div class="modal-dialog">
+													<div class="filter-content">
+														<div class="hidden-xs hidden-sm">															
+															<div class="col-md-12">
+																<div class="modal-header">
+																	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+																	<h5>&nbsp;&nbsp;&nbsp;Пельмени</h5>
+																</div>
+																<div class="row">
+																	<div class="col-md-12">
+																		<a class="active" href="/">
+																			<div class="punkt autoheight">
+																				<div class="row">
+																					<div class="col-xs-7 col-sm-7 col-md-12">
+																						<p>Пельмени</p>
+																					</div>
+																				</div>
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt autoheight">
+																				<div class="row">
+																					<div class="col-xs-7 col-sm-7 col-md-12">
+																						<p>Пельмени весовые</p>
+																					</div>
+																				</div>
+																			</div>
+																		</a>
+																		<a href="/">
+																			<div class="punkt autoheight">
+																				<div class="row">
+																					<div class="col-xs-7 col-sm-7 col-md-12">
+																						<p>Манты и хинкали</p>
+																					</div>
+																				</div>
+																			</div>
+																		</a>
+																	</div>
+																</div>
+															</div>															
+														</div>
+													</div>
+												</div>
+											</div>
+											<a href="/">
+												<div class="section-filter s2" style="background-image: url('images/Partners/bg-section-filter-var.jpg');">
+													<h4>Вареники</h4>
+												</div>
+											</a>											
+										</div>
+										<div class="col-md-3 col-lg-2">
+											<a href="/">
+												<div class="section-filter s2" style="background-image: url('images/Partners/bg-section-filter-cons.jpg');">
+													<h4>Консервы</h4>
+												</div>
+											</a>
+											<a href="/">
+												<div class="section-filter s2" style="background-image: url('images/Partners/bg-section-filter-hal.jpg');">
+													<h4>Халяль</h4>
+												</div>
+											</a>											
+										</div>
+										<div class="col-md-3 col-lg-2">
+											<a href="/">
+												<div class="section-filter" style="background-image: url('images/Partners/bg-section-filter-ov.jpg');">
+													<h4>Овощи картофель грибы</h4>
+												</div>
+											</a>
+																						
+										</div>
+										<div class="col-md-3 col-lg-2">
+											<a href="/">
+												<div class="section-filter" style="background-image: url('images/Partners/bg-section-filter-yag.jpg');">
+													<h4>Ягоды</h4>
+												</div>
+											</a>
+										</div>
+										<div class="col-md-3 col-lg-2">
+											<a href="/">
+												<div class="section-filter s2" style="background-image: url('images/Partners/bg-section-filter-kur.jpg');">
+													<h4>Курица</h4>
+												</div>
+											</a>
+											<a href="/">
+												<div class="section-filter s2" style="background-image: url('images/Partners/bg-section-filter-fish.jpg');">
+													<h4>Рыба</h4>
+												</div>
+											</a>
+										</div>						
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12" style="text-align: center;">
+							<div class="read-more news" style="margin: 15px auto 0;">
+								<a href="/" tabindex="0">показать всё<span></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container hidden-md hidden-lg">
+					<div class="row">			
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="javscript://" class="spoiler-title">Бренды<span class="button-spoiler"></span></a>
+								<div class="spoiler-content" style="display: none;">
+									<div class="row">
+										<div class="col-xs-6 col-sm-3">
+											<a href="/">
+												<div class="punkt-mobile logo-filter">
+													<img src="images/logos/4sezona.png" class="img-responsive" alt="">
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/">
+												<div class="punkt-mobile logo-filter">
+													<img src="images/logos/aviko.png" class="img-responsive" alt="">
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/">
+												<div class="punkt-mobile logo-filter">
+													<img src="images/logos/cezar.png" class="img-responsive" alt="">
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/">
+												<div class="punkt-mobile logo-filter">
+													<img src="images/logos/cheremushki.png" class="img-responsive" alt="">
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/assortiment/zhemchuzhina-rossii/">
+												<div class="punkt-mobile logo-filter">
+													<img src="images/logos/drOtker.png" class="img-responsive" alt="">
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/assortiment/vkuslandiya/">
+												<div class="punkt-mobile logo-filter">
+													<img src="images/logos/goryachaysSchtuchka.png" class="img-responsive" alt="">
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/assortiment/leningradskoe/">
+												<div class="punkt-mobile logo-filter">
+													<img src="images/logos/hozyainAltaya.png" class="img-responsive" alt="">
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/assortiment/tri-bogatyrya/">
+												<div class="punkt-mobile logo-filter">
+													<img src="images/logos/kemp.png" class="img-responsive" alt="">
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/assortiment/semeynoe/">
+												<div class="punkt-mobile logo-filter">
+													<img src="images/logos/kotletar.png" class="img-responsive" alt="">
+												</div>
+											</a>
+										</div>																									
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="javscript://" class="spoiler-title">Блины<span class="button-spoiler"></span></a>
+								<div class="spoiler-content" style="display: none;">
+									<div class="row">
+										<div class="col-xs-6 col-sm-3">
+											<a href="/">
+												<div class="punkt-mobile">
+													<div class="text-button-filter">Блины</div>
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/">
+												<div class="punkt-mobile">
+													<div class="text-button-filter">Блины весовые</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Выпечка</a>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Тесто</a>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Пицца</a>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Чебуреки Шаурма Беляши</a>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Первые блюда</a>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Готовые блюда</a>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Вторые блюда</a>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="javscript://" class="spoiler-title">Полуфабрикаты<span class="button-spoiler"></span></a>
+								<div class="spoiler-content" style="display: none;">
+									<div class="row">
+										<div class="col-xs-6 col-sm-3">
+											<a href="/">
+												<div class="punkt-mobile">
+													<div class="text-button-filter">Мясные</div>
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/">
+												<div class="punkt-mobile">
+													<div class="text-button-filter">Мясные весовые</div>
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/">
+												<div class="punkt-mobile">
+													<div class="text-button-filter">В панировке</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="javscript://" class="spoiler-title">Пельмени<span class="button-spoiler"></span></a>
+								<div class="spoiler-content" style="display: none;">
+									<div class="row">
+										<div class="col-xs-6 col-sm-3">
+											<a href="/">
+												<div class="punkt-mobile">
+													<div class="text-button-filter">Пельмени</div>
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/">
+												<div class="punkt-mobile">
+													<div class="text-button-filter">Пельмени весовые</div>
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="/">
+												<div class="punkt-mobile">
+													<div class="text-button-filter">Манты и хинкали</div>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Консервы</a>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Халяль</a>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Овощи картофель грибы</a>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Ягоды</a>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Курица</a>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="/">Рыба</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--positions wrap-->
+			<section class="positions-wrap part-wrap">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+							<a href="/">
+								<div class="positions-block">
+									<figure class="img-block">
+										<img class="img-responsive" src="images/products/distibutions/gorsh10.png" alt="Чебупели сочные с мясом">
+									</figure>
+									<h4>Чебупели сочные с мясом</h4>
+									<p><b>300 * 12</b></p>								
+								</div>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+							<a href="/">
+								<div class="positions-block">
+									<figure class="img-block">
+										<img class="img-responsive" src="images/products/distibutions/gorsh10.png" alt="Чебупели сочные с мясом">
+									</figure>
+									<h4>Чебупели сочные с мясом</h4>
+									<p><b>300 * 12</b></p>								
+								</div>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+							<a href="/">
+								<div class="positions-block">
+									<figure class="img-block">
+										<img class="img-responsive" src="images/products/distibutions/gorsh10.png" alt="Чебупели сочные с мясом">
+									</figure>
+									<h4>Чебупели сочные с мясом</h4>
+									<p><b>300 * 12</b></p>								
+								</div>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+							<a href="/">
+								<div class="positions-block">
+									<figure class="img-block">
+										<img class="img-responsive" src="images/products/distibutions/gorsh10.png" alt="Чебупели сочные с мясом">
+									</figure>
+									<h4>Чебупели сочные с мясом</h4>
+									<p><b>300 * 12</b></p>								
+								</div>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+							<a href="/">
+								<div class="positions-block">
+									<figure class="img-block">
+										<img class="img-responsive" src="images/products/distibutions/gorsh10.png" alt="Чебупели сочные с мясом">
+									</figure>
+									<h4>Чебупели сочные с мясом</h4>
+									<p><b>300 * 12</b></p>								
+								</div>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+							<a href="/">
+								<div class="positions-block">
+									<figure class="img-block">
+										<img class="img-responsive" src="images/products/distibutions/gorsh10.png" alt="Чебупели сочные с мясом">
+									</figure>
+									<h4>Чебупели сочные с мясом</h4>
+									<p><b>300 * 12</b></p>								
+								</div>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+							<a href="/">
+								<div class="positions-block">
+									<figure class="img-block">
+										<img class="img-responsive" src="images/products/distibutions/gorsh10.png" alt="Чебупели сочные с мясом">
+									</figure>
+									<h4>Чебупели сочные с мясом</h4>
+									<p><b>300 * 12</b></p>								
+								</div>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+							<a href="/">
+								<div class="positions-block">
+									<figure class="img-block">
+										<img class="img-responsive" src="images/products/distibutions/gorsh10.png" alt="Чебупели сочные с мясом">
+									</figure>
+									<h4>Чебупели сочные с мясом</h4>
+									<p><b>300 * 12</b></p>								
+								</div>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+							<a href="/">
+								<div class="positions-block">
+									<figure class="img-block">
+										<img class="img-responsive" src="images/products/distibutions/gorsh10.png" alt="Чебупели сочные с мясом">
+									</figure>
+									<h4>Чебупели сочные с мясом</h4>
+									<p><b>300 * 12</b></p>								
+								</div>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+							<a href="/">
+								<div class="positions-block">
+									<figure class="img-block">
+										<img class="img-responsive" src="images/products/distibutions/gorsh10.png" alt="Чебупели сочные с мясом">
+									</figure>
+									<h4>Чебупели сочные с мясом</h4>
+									<p><b>300 * 12</b></p>								
+								</div>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+							<a href="/">
+								<div class="positions-block">
+									<figure class="img-block">
+										<img class="img-responsive" src="images/products/distibutions/gorsh10.png" alt="Чебупели сочные с мясом">
+									</figure>
+									<h4>Чебупели сочные с мясом</h4>
+									<p><b>300 * 12</b></p>								
+								</div>
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+							<a href="/">
+								<div class="positions-block">
+									<figure class="img-block">
+										<img class="img-responsive" src="images/products/distibutions/gorsh10.png" alt="Чебупели сочные с мясом">
+									</figure>
+									<h4>Чебупели сочные с мясом</h4>
+									<p><b>300 * 12</b></p>								
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="modern-page-navigation">
+								<span class="modern-page-first modern-page-current">1</span>
+								<a href="/assortiment/?PAGEN_1=2" class="">2</a>
+								<a href="/assortiment/?PAGEN_1=3" class="">3</a>
+								<span class="">...</span>
+								<a href="/assortiment/?PAGEN_1=5" class="">5</a>
+								<a href="/assortiment/?PAGEN_1=6">6</a>
+								<a class="modern-page-next" href="/assortiment/?PAGEN_1=2">Далее <span class="arrow-pager"></span></a>
+								<a class="modern-page-all" href="/assortiment/?SHOWALL_1=1">Все</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="logo-footer-wrap">
+							<img src="images/logo-footer.png" alt="Айсберри">
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-3">
+						<div class="row">
+							<div class="col-xs-12">
+								<p class="title-block">Информация</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-11 col-xs-offset-1">
+								<ul class="list-icons link-list footer_menu">
+									<li><a href="/">Производство</a></li>
+									<li><a href="assortiment.html">Каталог</a></li>
+									<li><a href="/">Где купить?</a></li>
+									<li><a href="/">Новости</a></li>
+									<li><a href="/">Карьера</a></li>
+									<li><a href="/">Сотрудничество</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-3">
+						<div class="row">
+							<div class="col-xs-12">
+								<p class="title-block">Как с нами связаться?</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="read-more news">
+									<a href="/" tabindex="0">напишите<span></span></a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<p class="title-block">Мы в социальных сетях</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<a href="/">
+									<div class="social-network vk"></div>
+								</a>
+								<a href="/">
+									<div class="social-network ok"></div>
+								</a>
+								<a href="/">
+									<div class="social-network fb"></div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="hidden-xs hidden-sm col-md-4 col-md-offset-0 col-lg-3 col-lg-offset-1">
+						<div class="row">
+							<div class="col-xs-12">
+								<p class="title-block">Мы в instagramm</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<iframe
+									src="https://averin.pro/widget.php?l=iceberry_icecream&style=1&width=250&gallery=1&s=80&icc=3&icr=2&t=0&tt=Мы в Инстаграм&h=0&ttcolor=FFFFFF&th=c3c3c3&bw=ffffff&bscolor=FFFFFF&bs=FF0000&ts=Подписаться"
+									allowtransparency="true" frameborder="0" scrolling="no"
+									style="border:none;overflow:hidden;width:250px; height: 160px; margin-top: 12px;">
+								</iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row hidden-md hidden-lg">
+					<div style="text-align: center" class="col-xs-12">
+						<a href="/">
+							<div class="social-network ok"></div>
+						</a>
+						<a href="/">
+							<div class="social-network vk"></div>
+						</a>
+						<a href="/">
+							<div class="social-network fb"></div>
+						</a>
+						<a href="/">
+							<div class="social-network ins"></div>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="signature">
+							<p><span>© 2010–2019&nbsp;</span> ООО «ТД Айсберри»</p>
+							<div class="read-more news hidden-md hidden-lg">
+								<a href="/" tabindex="0">обратная связь<span></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</main>
+	<a id="top_b" href="#toppage"></a>
+	<!-- Подключаем jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Подключаем Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	<!--Slick slider-->
+	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.slides-wrapper').slick({
+				dots: true,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 1
+			});
+			$('#brands-slider').slick({
+				dots: false,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				responsive: [
+					{
+						breakpoint: 992,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1,
+							centerMode: true,
+						}
+					},
+					{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 2,
+							centerMode: true,
+						}
+					},
+					{
+						breakpoint: 600,
+						settings: {
+							slidesToShow: 1,
+							centerMode: true,
+						}
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							centerMode: true
+						}
+					}
+				]
+			});
+			$('.new_item').slick({
+				dots: false,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				responsive: [
+					{
+						breakpoint: 992,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1,
+							centerMode: true,
+						}
+					},
+					{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 1,
+							centerMode: true,
+						}
+					},
+					{
+						breakpoint: 600,
+						settings: {
+							slidesToShow: 1,
+							centerMode: true,
+						}
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							centerMode: true
+						}
+					}
+				]
+			});
+			$('.mobile-news').slick({
+				dots: false,
+				arrows: false,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				centerMode: true
+			});
+			$('#special_projects_wrap').slick({
+				dots: false,
+				arrows: false,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 2,
+				slidesToScroll: 1,
+				responsive: [
+					{
+						breakpoint: 992,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1,
+							centerMode: true,
+						}
+					},
+					{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							centerMode: true,
+						}
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 1,
+							centerMode: true
+						}
+					}
+				]
+			});
+			$('.positions-slider').slick({
+				dots: false,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 4,
+				slidesToScroll: 2,
+				responsive: [
+					{
+						breakpoint: 992,
+						settings: {
+							slidesToShow: 3,
+							slidesToScroll: 2
+						}
+					},
+					{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						}
+					},
+					{
+						breakpoint: 600,
+						settings: {
+							slidesToShow: 1,
+							centerMode: true,
+							arrows: false
+						}
+					}
+				]
+			});	
+			$('.slider-obor').slick({
+				dots: false,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 1,
+				adaptiveHeight: true,
+				autoplay: false,
+				autoplaySpeed: 3000
+			});
+		});
+	</script>
+	<!--move bg-->
+	<script>
+		$(document).mousemove(function (e) {
+			var x = ((e.pageX - 2000) * 1 / 35), y = ((e.pageY - 4000) * -1 / 85);
+			$('#eskimo_bg').css('background-position', x + 'px ' + y + 'px');
+		});
+
+		$(document).mousemove(function (e) {
+			var x = ((e.pageX - 200) * 1 / 25), y = ((e.pageY - 5000) * -1 / 85);
+			$('#briket_bg').css('background-position', x + 'px ' + y + 'px');
+		});
+	</script>
+	<!--mobile menu slideout-->
+	<script src="slideout/slideout.js"></script>
+	<script>
+		window.onload = function () {
+			var slideout = new Slideout({
+				'panel': document.getElementById('panel'),
+				'menu': document.getElementById('menu'),
+				'side': 'left',
+				'padding': 320,
+				'tolerance': 320,
+				'touch': false
+			});
+
+			document.querySelector('.js-slideout-toggle').addEventListener('click', function () {
+				slideout.toggle();
+			});
+
+			document.querySelector('.js-slideout-toggle-menu').addEventListener('click', function () {
+				slideout.toggle();
+			});
+
+			document.querySelector('.menu').addEventListener('click', function (eve) {
+				if (eve.target.nodeName === 'A') { slideout.close(); }
+			});
+		};
+	</script>
+	<script src="js/regionField.js"></script>
+	<!--script type="text/javascript">
+		$(document).ready(function () {
+			$('.spoiler-title').click(function () {
+				$(this).parent().children('div.spoiler-content').toggle('fast');
+				$(this).children('span.button-spoiler').toggleClass("active");
+				return false;
+			});
+		});
+	</script-->
+	<!--script for columns-->
+	<script src="js/masonry.pkgd.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.news-wrap').masonry({
+				// указываем элемент-контейнер в котором расположены блоки для динамической верстки
+				itemSelector: '.grid',
+				// указываем класс элемента являющегося блоком в нашей сетке
+				singleMode: true,
+				// true - если у вас все блоки одинаковой ширины
+				isResizable: true,
+				// перестраивает блоки при изменении размеров окна
+				isAnimated: true,
+				// анимируем перестроение блоков
+				animationOptions: {
+					queue: false,
+					duration: 500
+				}
+				// опции анимации - очередь и продолжительность анимации
+			});
+		});
+	</script>
+
+	<script src="js/scripts.js"></script>
+	<script src="js/filtrdistrb.js"></script>
+</body>
+
+</html>
